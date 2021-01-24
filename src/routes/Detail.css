@@ -1,0 +1,61 @@
+.about__container {
+    
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #181818;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 800px;
+    font-weight: 300;
+    align-items: center;
+
+    color: white;
+  }
+  
+  .about__container span:first-child {
+    margin: 0 auto;
+    font-size: 20px;
+  }
+  
+  .about__container span:last-child {
+    display: block;
+    margin-top: 10px;
+  }
+  .about__container img {
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 3px;
+    box-shadow: 0 13px 27px -5px rgba(223, 223, 223, 0.068),
+      0 8px 16px -8px rgba(223, 223, 223, 0.068), 0 -6px 16px -6px rgba(223, 223, 223, 0.068);
+  }
+  
+  .movie__data .movie__title,
+  .movie__data .movie__year {
+    margin: 0 auto;
+    font-weight: 300;
+  }
+  
+  .movie__data .movie__title {
+    margin: 0 auto;
+    margin-bottom: 5px;
+    font-size: 24px;
+   
+  }
+  
+  .movie__data .movie__genres {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .movie__genres li,
+  .movie__data .movie__year {
+    margin-right: 10px;
+    font-size: 14px;
+  }
